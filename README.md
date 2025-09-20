@@ -32,4 +32,7 @@ Users can browse products, add them to the cart, apply coupons, choose express s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/flex.git
+   git clone https://github.com/nourElshorfa/flex.git
+   cd my-app
+   npm install
+   npm run dev
