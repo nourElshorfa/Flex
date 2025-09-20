@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #009c;
+}
