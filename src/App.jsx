@@ -1,5 +1,5 @@
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Layout from './Components/Layout/Layout'
 import ProductDetails from './Components/ProductDetails/ProductDetails'
@@ -9,7 +9,7 @@ import Products from './Components/Products/Products'
 
 function App() {
 
-  const router = createBrowserRouter(
+  const router = createHashRouter(
     [ 
       {path: "/" , element: <Layout/> , children : [
       {index: true, element: <Products/>} ,
